@@ -7,7 +7,7 @@ public class E_II_Driver
 		// Official stuff
 		System.out.println("Coffee and Exhaustion, LLC. presents:");
 		System.out.println("Jamie FC's Eternity II Solver v3.2b");
-		System.out.println("Concordia Student ID 40195531");
+		System.out.println("Concordia Student ID 4XXXXXX1");
 		System.out.println("I attest that this is my own work and nobody else\'s.");
 		
 		Scanner userIn = new Scanner(System.in);
