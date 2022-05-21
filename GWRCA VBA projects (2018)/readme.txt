@@ -2,6 +2,8 @@ Some standout files from my first big foray into VBA.
 I had not received formal training in coding at this point,
 so I apologize for any redundancy or spaghetti :)
 
+Document generation is broken, unless you're using Microsoft Word 2011!
+
 INVENTORY
 This was used for tracking our (enormous) inventory when we were switching
 over control systems. This remained in use for about a month as a dynamic
