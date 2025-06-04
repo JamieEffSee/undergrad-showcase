@@ -1,0 +1,84 @@
+TEST PARAMS
+All environment stuff in book
+Including widths, periods, and W/L of transistors
+
+tr is 0.1 to 0.9
+tf is 0.9 to 0.1
+tphl, tplh is 0.5 to 0.5 wrt Vb
+
+===========================================
+
+Milestone 1 - Single Cell
+
+tphl, tplh wrt Vb
+
+SIMULATED
+
+@q:	tr = 0.25 ns		tphl = 0.1 ns
+	tf = 0.07 ns		tplh = 0.04 ns
+
+Min params: 	TB = 1 ns	WB = 0.5 ns	TW = 0.5ns	WW = 0.25ns
+		ipk = 763.1 uA		iav = 47.38 uA (Cadence calculator; constant operation)
+
+
+LAYOUT (EXTRACTED)
+
+@q:	tr = 0.35 ns		tphl = 0.06 ns
+	tf = 0.11 ns		tplh = 0.15 ns
+
+Min params: 	TB = 1 ns	WB = 0.5 ns	TW = 0.5ns	WW = 0.25ns
+		ipk = 975.4 uA		iav = 68.38 uA (Cadence calculator; constant operation)
+
+
+Completed LVS 
+Completed Extracted view/sim before proceeding
+
+
+
+=========================================
+
+Milestone 2 - 2x2, no control mech
+
+tphl, tplh q(X,n) wrt VWn 
+
+SIMULATED
+
+@q(x,y), avg:	tr =  0.29 ns		tphl = 0.06 ns
+		tf =  0.09 ns		tplh = 0.11 ns
+
+
+Min params: 	TB = 1 ns	WB = 0.5 ns	TW = 1.5ns	WW = 0.25ns
+		ipk = 763.1 uA		iav = 63.06 uA (Cadence calculator; constant operation)
+
+LAYOUT (EXTRACTED)
+
+@q(x,y), avg:	tr =  0.4 ns		tphl = 0.1 ns
+		tf =  0.1 ns		tplh = 0.15 ns
+
+Min params: 	TB = 1 ns	WB = 0.5 ns	TW = 1.5ns	WW = 0.25ns
+		ipk = 2.00 mA		iav = 96.54 uA (Cadence calculator; constant operation)
+
+
+=========================================
+
+Milestone 3 - 2x2, wordline control
+
+tphl, tplh q(X,n) wrt WEn 
+
+SIMULATED
+
+@q(x,y), avg:	tr = 0.28 ns		tphl = 0.12 ns
+		tf = 0.23 ns		tplh = 0.24 ns
+
+
+Min params: 	WEn = 1ns	
+		ipk = 3.094mA		iav = 35.75 uA (Cadence calculator; constant operation)
+
+LAYOUT (EXTRACTED)
+
+@q(x,y), avg:	tr = 0.46 ns		tphl = 1.07 ns
+		tf = 0.50 ns		tplh = 1.27 ns
+
+Min params: 	WEn = 1.5 ns
+		ipk = 4.29 mA		iav = 61.91 uA (Cadence calculator; constant operation)
+
