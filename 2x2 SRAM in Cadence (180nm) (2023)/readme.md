@@ -1,5 +1,6 @@
 One of my first forays into proper IC design, a 2x2 SRAM bank with attempts at wordline and
-bitline control. Uses CMOSIS5 technology (180nm) in Cadence. 
+bitline control. Uses CMOSIS5 technology (180nm) in Cadence. Performed as the summative project
+of a VLSI circuit design course.
 
 While an admittedly sophomore venture, this was one of the standout course projects that both 
 underscored my love for electronics design and allowed me the latitude to express it. It is 
