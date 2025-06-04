@@ -16,5 +16,6 @@ using a standard 9V battery for about four hours. This configuration provides an
 for individuals and teams that desire accurate and up-to-date information about their
 surroundings._
 
-The report document has certain pages redacted to protect personal information. Credit to one of the
-great project teams: thank you Suraj P, Cris E, Sheng Han W, and Alex K.
+The entire system was produced for less than $50. The report document has certain pages redacted to 
+protect personal information. Credit to one of the great project teams: thank you Suraj P, Cris E, 
+Sheng Han W, and Alex K.
