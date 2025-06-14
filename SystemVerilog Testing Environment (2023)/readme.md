@@ -7,4 +7,4 @@ while each output has response, data, and tag lines. The top-level circuit is cl
 asynchronous reset.
 
 This environment is an iteration on a previous design (created for the halfway point in the course),
-improving on its functionality and adding industry-standard testing modules like scoreboards and monitors.
+improving on its functionality and adding standard testbench modules like scoreboards and monitors.
